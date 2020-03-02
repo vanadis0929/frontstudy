@@ -67,3 +67,25 @@ header {
 header.fixed + #middle {
   //   margin-top: 70px;
 }
+
+#app {
+  border: 1px solid #222;
+  width: 500px;
+  height: 500px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  flex-direction: column-reverse;
+
+  div {
+    display: -webkit-box;
+    display: flex;
+
+    button {
+      -webkit-box-flex: 1;
+      flex: 1 1 auto;
+      text-align: center;
+    }
+  }
+}

@@ -62,4 +62,26 @@ header {
   height: 2000px;
 }
 
+#app {
+  border: 1px solid #222;
+  width: 500px;
+  height: 500px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  flex-direction: column-reverse;
+}
+
+#app div {
+  display: -webkit-box;
+  display: flex;
+}
+
+#app div button {
+  -webkit-box-flex: 1;
+  flex: 1 1 auto;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */

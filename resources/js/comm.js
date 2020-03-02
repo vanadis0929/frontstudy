@@ -68,4 +68,34 @@ window.addEventListener("DOMContentLoaded", function() {
       }
     }
   });
+
+  let app = document.querySelector("#app");
+
+  // app.addEventListener("click", function(e) {
+  //   if (e.target) {
+  //     console.log(e.target);
+  //     if (e.target.id === "btn1") {
+  //       console.log("btn1");
+  //     } else if (e.target.id === "btn2") {
+  //       console.log("btn2");
+  //     } else if (e.target.id === "btn3") {
+  //       console.log("btn3");
+  //     }
+  //   }
+  // });
+
+  $("#app").on("click", function(e) {
+    if (e.target) {
+      //console.log(e.target);
+      if (e.target.id === "btn1") {
+        console.log("btn1");
+      } else if (e.target.id === "btn2") {
+        console.log("btn2");
+      } else if (e.target.id === "btn3") {
+        console.log("btn3");
+      } else if (e.target.id === "btn4") {
+        console.log("btn4");
+      }
+    }
+  });
 });
